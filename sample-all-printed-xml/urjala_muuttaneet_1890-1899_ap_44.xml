@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-06-12T09:56:59.078+02:00</Created>
-        <LastChange>2024-06-12T13:31:23.005+02:00</LastChange>
-        <TranskribusMetadata docId="2761864" pageId="72644365" pageNr="18" tsid="171710031" status="DONE" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=ELAPUWLMJBSNBBVRDTNZJMYU&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DMBVTQHDVKNTAZCAVRXDGCGX" imageId="58584566"/>
+        <LastChange>2024-06-17T09:06:55.732+02:00</LastChange>
+        <TranskribusMetadata docId="2761864" pageId="72644365" pageNr="18" tsid="172419090" status="DONE" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=ELAPUWLMJBSNBBVRDTNZJMYU&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EVQKZUOIKJYLQPUIHRGRSZLD" imageId="58584566"/>
     </Metadata>
     <Page imageFilename="urjala_muuttaneet_1890-1899_ap_44.jpg" imageWidth="4516" imageHeight="3494">
         <Relations/>
@@ -797,8 +797,20 @@
         </TableRegion>
         <TableRegion id="t_528" custom="readingOrder {index:5;}">
             <Coords points="399,695 2342,695 2342,3304 399,3304"/>
-            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_529">
-                <Coords points="399,695 399,3304 2342,3304 2342,695"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_501">
+                <Coords points="399,695 399,838 2342,838 2342,695"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="1" col="0" rowSpan="1" colSpan="1" id="c_514">
+                <Coords points="399,838 399,930 2342,930 2342,838"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="0" rowSpan="1" colSpan="1" id="c_528">
+                <Coords points="399,930 399,1040 2342,1040 2342,930"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="0" rowSpan="1" colSpan="1" id="c_530">
+                <Coords points="399,1040 399,3304 2342,3304 2342,1040"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
