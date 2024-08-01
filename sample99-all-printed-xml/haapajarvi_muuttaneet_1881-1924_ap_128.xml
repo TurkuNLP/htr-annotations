@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2024-07-15T15:51:30.193+03:00</Created>
+        <LastChange>2024-07-17T06:39:12.524+02:00</LastChange>
+        <TranskribusMetadata docId="3288986" pageId="75001444" pageNr="2" tsid="178103409" status="DONE" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=VKNSWJOIMDRWYEFLEHYPAVJO&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FQABNWQDNWFRUZQXIXMIKFMS" imageId="60773162"/>
+    </Metadata>
+    <Page imageFilename="haapajarvi_muuttaneet_1881-1924_ap_128.jpg" imageWidth="7000" imageHeight="5304">
+        <Relations/>
+        <TableRegion id="t" custom="readingOrder {index:0;}">
+            <Coords points="642,314 6412,377 6388,837 626,726"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c">
+                <Coords points="642,314 626,726 6388,837 6412,377"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_159" custom="readingOrder {index:1;}">
+            <Coords points="674,751 6436,830 6436,1352 642,1265"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_160">
+                <Coords points="674,751 642,1265 6436,1352 6436,830"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_281" custom="readingOrder {index:2;}">
+            <Coords points="682,1265 6380,1360 6364,4990 682,4990"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_282">
+                <Coords points="682,1265 682,4990 6364,4990 6380,1360"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+    </Page>
+</PcGts>
