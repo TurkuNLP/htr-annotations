@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-06-25T21:59:42.286+02:00</Created>
-        <LastChange>2024-07-09T09:25:49.338+02:00</LastChange>
-        <TranskribusMetadata docId="2992303" pageId="73572980" pageNr="27" tsid="176993142" status="DONE" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=IAXDTYCUPVQBNVFDAZLPKBKQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GMAQPWKWIMRHPWSMWCXBJHRT" imageId="59431991"/>
+        <LastChange>2024-08-09T13:46:22.144+02:00</LastChange>
+        <TranskribusMetadata docId="2992303" pageId="73572980" pageNr="27" tsid="182181028" status="FINAL" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=IAXDTYCUPVQBNVFDAZLPKBKQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=LYIXQQXDHBUCACSFNFLACYBC" imageId="59431991"/>
     </Metadata>
     <Page imageFilename="karjaa_muuttaneet_1894-1905_mko13-14_55.jpg" imageWidth="2200" imageHeight="1723">
         <Relations/>
@@ -59,32 +59,88 @@
                 <Coords points="2104,340 2106,390 2136,390 2133,339"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="1" col="0" rowSpan="1" colSpan="1" id="c_3589">
-                <Coords points="1152,407 1152,1117 1225,1116 1200,406"/>
+            <TableCell row="1" col="0" rowSpan="1" colSpan="1" id="c_162">
+                <Coords points="1152,407 1158,1035 1218,1033 1200,406"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="1" col="1" rowSpan="1" colSpan="1" id="c_3593">
-                <Coords points="1200,406 1225,1116 1354,1114 1329,404"/>
+            <TableCell row="1" col="1" rowSpan="1" colSpan="1" id="c_164">
+                <Coords points="1200,406 1218,1033 1347,1028 1329,404"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="1" col="2" rowSpan="1" colSpan="1" id="c_3597">
-                <Coords points="1329,404 1354,1114 1447,1112 1422,402"/>
+            <TableCell row="1" col="2" rowSpan="1" colSpan="1" id="c_166">
+                <Coords points="1329,404 1347,1028 1440,1025 1422,402"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="1" col="3" rowSpan="1" colSpan="1" id="c_3601">
-                <Coords points="1422,402 1447,1112 1540,1111 1515,401"/>
+            <TableCell row="1" col="3" rowSpan="1" colSpan="1" id="c_168">
+                <Coords points="1422,402 1440,1025 1533,1022 1515,401"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="1" col="4" rowSpan="1" colSpan="1" id="c_3605">
-                <Coords points="1515,401 1540,1111 2081,1102 2056,391"/>
+            <TableCell row="1" col="4" rowSpan="1" colSpan="1" id="c_170">
+                <Coords points="1515,401 1533,1022 2074,1003 2056,391"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="1" col="5" rowSpan="1" colSpan="1" id="c_3609">
-                <Coords points="2056,391 2081,1102 2130,1101 2106,390"/>
+            <TableCell row="1" col="5" rowSpan="1" colSpan="1" id="c_172">
+                <Coords points="2056,391 2074,1003 2123,1001 2106,390"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="1" col="6" rowSpan="1" colSpan="1" id="c_3613">
-                <Coords points="2106,390 2130,1101 2180,1100 2136,390"/>
+            <TableCell row="1" col="6" rowSpan="1" colSpan="1" id="c_174">
+                <Coords points="2106,390 2123,1001 2163,1000 2136,390"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="0" rowSpan="1" colSpan="1" id="c_347">
+                <Coords points="1158,1035 1159,1109 1220,1107 1218,1033"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="1" rowSpan="1" colSpan="1" id="c_349">
+                <Coords points="1218,1033 1220,1107 1349,1103 1347,1028"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="2" rowSpan="1" colSpan="1" id="c_351">
+                <Coords points="1347,1028 1349,1103 1442,1099 1440,1025"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="3" rowSpan="1" colSpan="1" id="c_353">
+                <Coords points="1440,1025 1442,1099 1535,1096 1533,1022"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="4" rowSpan="1" colSpan="1" id="c_355">
+                <Coords points="1533,1022 1535,1096 2076,1077 2074,1003"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="5" rowSpan="1" colSpan="1" id="c_357">
+                <Coords points="2074,1003 2076,1077 2125,1075 2123,1001"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="2" col="6" rowSpan="1" colSpan="1" id="c_359">
+                <Coords points="2123,1001 2125,1075 2166,1074 2163,1000"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="0" rowSpan="1" colSpan="1" id="c_348">
+                <Coords points="1159,1109 1164,1677 1237,1676 1220,1107"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="1" rowSpan="1" colSpan="1" id="c_350">
+                <Coords points="1220,1107 1237,1676 1366,1674 1349,1103"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="2" rowSpan="1" colSpan="1" id="c_352">
+                <Coords points="1349,1103 1366,1674 1459,1672 1442,1099"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="3" rowSpan="1" colSpan="1" id="c_354">
+                <Coords points="1442,1099 1459,1672 1552,1671 1535,1096"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="4" rowSpan="1" colSpan="1" id="c_356">
+                <Coords points="1535,1096 1552,1671 2093,1662 2076,1077"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="5" rowSpan="1" colSpan="1" id="c_358">
+                <Coords points="2076,1077 2093,1662 2142,1661 2125,1075"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="3" col="6" rowSpan="1" colSpan="1" id="c_360">
+                <Coords points="2125,1075 2142,1661 2192,1660 2166,1074"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
@@ -181,6 +237,92 @@
             </TableCell>
             <TableCell row="1" col="8" rowSpan="1" colSpan="1" id="c_2677">
                 <Coords points="1092,453 1092,514 1135,515 1135,454"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="0" rowSpan="1" colSpan="1" id="c_3383">
+                <Coords points="134,931 133,1002 184,1003 184,931"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="1" rowSpan="1" colSpan="1" id="c_3387">
+                <Coords points="184,931 184,1003 279,1005 279,933"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="2" rowSpan="1" colSpan="1" id="c_3391">
+                <Coords points="279,933 279,1005 320,1005 320,934"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="3" rowSpan="1" colSpan="1" id="c_3395">
+                <Coords points="320,934 320,1005 375,1006 375,935"/>
+                <TextLine id="l_4434" custom="readingOrder {index:0;}">
+                    <Coords points="328,992 361,993 361,972 329,971"/>
+                    <Baseline points="328,992 361,993"/>
+                    <TextEquiv>
+                        <Unicode>19/12</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="4" rowSpan="1" colSpan="1" id="c_3399">
+                <Coords points="375,935 375,1006 470,1008 470,936"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="5" rowSpan="1" colSpan="1" id="c_3403">
+                <Coords points="470,936 470,1008 561,1010 561,938"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="6" rowSpan="1" colSpan="1" id="c_3407">
+                <Coords points="561,938 561,1010 1047,1018 1047,946"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="7" rowSpan="1" colSpan="1" id="c_3411">
+                <Coords points="1047,946 1047,1018 1092,1019 1092,947"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="10" col="8" rowSpan="1" colSpan="1" id="c_3415">
+                <Coords points="1092,947 1092,1019 1135,1020 1135,948"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="0" rowSpan="1" colSpan="1" id="c_3470">
+                <Coords points="133,1002 132,1064 184,1064 184,1003"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="1" rowSpan="1" colSpan="1" id="c_3474">
+                <Coords points="184,1003 184,1064 279,1064 279,1005"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="2" rowSpan="1" colSpan="1" id="c_3478">
+                <Coords points="279,1005 279,1064 320,1064 320,1005"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="3" rowSpan="1" colSpan="1" id="c_3482">
+                <Coords points="320,1005 320,1064 375,1064 375,1006"/>
+                <TextLine id="l_4499" custom="readingOrder {index:0;}">
+                    <Coords points="332,1051 362,1053 364,1032 334,1030"/>
+                    <Baseline points="332,1051 362,1053"/>
+                    <TextEquiv>
+                        <Unicode>25/12</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="4" rowSpan="1" colSpan="1" id="c_3486">
+                <Coords points="375,1006 375,1064 470,1064 470,1008"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="5" rowSpan="1" colSpan="1" id="c_3490">
+                <Coords points="470,1008 470,1064 561,1064 561,1010"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="6" rowSpan="1" colSpan="1" id="c_3494">
+                <Coords points="561,1010 561,1064 1047,1064 1047,1018"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="7" rowSpan="1" colSpan="1" id="c_3498">
+                <Coords points="1047,1018 1047,1064 1092,1064 1092,1019"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="11" col="8" rowSpan="1" colSpan="1" id="c_3502">
+                <Coords points="1092,1019 1092,1064 1135,1064 1135,1020"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="2" col="0" rowSpan="1" colSpan="1" id="c_2723">
@@ -499,126 +641,76 @@
                 <Coords points="1092,889 1092,947 1135,948 1135,890"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="10" col="0" rowSpan="1" colSpan="1" id="c_3383">
-                <Coords points="134,931 133,1002 184,1003 184,931"/>
+            <TableCell row="12" col="0" rowSpan="1" colSpan="1" id="c_329">
+                <Coords points="132,1064 130,1129 183,1129 184,1064"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="10" col="1" rowSpan="1" colSpan="1" id="c_3387">
-                <Coords points="184,931 184,1003 279,1005 279,933"/>
+            <TableCell row="12" col="1" rowSpan="1" colSpan="1" id="c_331">
+                <Coords points="184,1064 183,1129 278,1129 279,1064"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="10" col="2" rowSpan="1" colSpan="1" id="c_3391">
-                <Coords points="279,933 279,1005 320,1005 320,934"/>
+            <TableCell row="12" col="2" rowSpan="1" colSpan="1" id="c_333">
+                <Coords points="279,1064 278,1129 319,1129 320,1064"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="10" col="3" rowSpan="1" colSpan="1" id="c_3395">
-                <Coords points="320,934 320,1005 375,1006 375,935"/>
-                <TextLine id="l_4434" custom="readingOrder {index:0;}">
-                    <Coords points="328,992 361,993 361,972 329,971"/>
-                    <Baseline points="328,992 361,993"/>
-                    <TextEquiv>
-                        <Unicode>19/12</Unicode>
-                    </TextEquiv>
-                </TextLine>
+            <TableCell row="12" col="3" rowSpan="1" colSpan="1" id="c_335">
+                <Coords points="320,1064 319,1129 374,1129 375,1064"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="10" col="4" rowSpan="1" colSpan="1" id="c_3399">
-                <Coords points="375,935 375,1006 470,1008 470,936"/>
+            <TableCell row="12" col="4" rowSpan="1" colSpan="1" id="c_337">
+                <Coords points="375,1064 374,1129 469,1129 470,1064"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="10" col="5" rowSpan="1" colSpan="1" id="c_3403">
-                <Coords points="470,936 470,1008 561,1010 561,938"/>
+            <TableCell row="12" col="5" rowSpan="1" colSpan="1" id="c_339">
+                <Coords points="470,1064 469,1129 560,1129 561,1064"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="10" col="6" rowSpan="1" colSpan="1" id="c_3407">
-                <Coords points="561,938 561,1010 1047,1018 1047,946"/>
+            <TableCell row="12" col="6" rowSpan="1" colSpan="1" id="c_341">
+                <Coords points="561,1064 560,1129 1046,1129 1047,1064"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="10" col="7" rowSpan="1" colSpan="1" id="c_3411">
-                <Coords points="1047,946 1047,1018 1092,1019 1092,947"/>
+            <TableCell row="12" col="7" rowSpan="1" colSpan="1" id="c_343">
+                <Coords points="1047,1064 1046,1129 1091,1129 1092,1064"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="10" col="8" rowSpan="1" colSpan="1" id="c_3415">
-                <Coords points="1092,947 1092,1019 1135,1020 1135,948"/>
+            <TableCell row="12" col="8" rowSpan="1" colSpan="1" id="c_345">
+                <Coords points="1092,1064 1091,1129 1134,1129 1135,1064"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="11" col="0" rowSpan="1" colSpan="1" id="c_3470">
-                <Coords points="133,1002 132,1064 184,1064 184,1003"/>
+            <TableCell row="13" col="0" rowSpan="1" colSpan="1" id="c_330">
+                <Coords points="130,1129 116,1674 170,1674 183,1129"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="11" col="1" rowSpan="1" colSpan="1" id="c_3474">
-                <Coords points="184,1003 184,1064 279,1064 279,1005"/>
+            <TableCell row="13" col="1" rowSpan="1" colSpan="1" id="c_332">
+                <Coords points="183,1129 170,1674 265,1675 278,1129"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="11" col="2" rowSpan="1" colSpan="1" id="c_3478">
-                <Coords points="279,1005 279,1064 320,1064 320,1005"/>
+            <TableCell row="13" col="2" rowSpan="1" colSpan="1" id="c_334">
+                <Coords points="278,1129 265,1675 306,1675 319,1129"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="11" col="3" rowSpan="1" colSpan="1" id="c_3482">
-                <Coords points="320,1005 320,1064 375,1064 375,1006"/>
-                <TextLine id="l_4499" custom="readingOrder {index:0;}">
-                    <Coords points="332,1051 362,1053 364,1032 334,1030"/>
-                    <Baseline points="332,1051 362,1053"/>
-                    <TextEquiv>
-                        <Unicode>25/12</Unicode>
-                    </TextEquiv>
-                </TextLine>
+            <TableCell row="13" col="3" rowSpan="1" colSpan="1" id="c_336">
+                <Coords points="319,1129 306,1675 361,1675 374,1129"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="11" col="4" rowSpan="1" colSpan="1" id="c_3486">
-                <Coords points="375,1006 375,1064 470,1064 470,1008"/>
+            <TableCell row="13" col="4" rowSpan="1" colSpan="1" id="c_338">
+                <Coords points="374,1129 361,1675 456,1676 469,1129"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="11" col="5" rowSpan="1" colSpan="1" id="c_3490">
-                <Coords points="470,1008 470,1064 561,1064 561,1010"/>
+            <TableCell row="13" col="5" rowSpan="1" colSpan="1" id="c_340">
+                <Coords points="469,1129 456,1676 547,1677 560,1129"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="11" col="6" rowSpan="1" colSpan="1" id="c_3494">
-                <Coords points="561,1010 561,1064 1047,1064 1047,1018"/>
+            <TableCell row="13" col="6" rowSpan="1" colSpan="1" id="c_342">
+                <Coords points="560,1129 547,1677 1033,1680 1046,1129"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="11" col="7" rowSpan="1" colSpan="1" id="c_3498">
-                <Coords points="1047,1018 1047,1064 1092,1064 1092,1019"/>
+            <TableCell row="13" col="7" rowSpan="1" colSpan="1" id="c_344">
+                <Coords points="1046,1129 1033,1680 1078,1680 1091,1129"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="11" col="8" rowSpan="1" colSpan="1" id="c_3502">
-                <Coords points="1092,1019 1092,1064 1135,1064 1135,1020"/>
-                <CornerPts>0 1 2 3</CornerPts>
-            </TableCell>
-            <TableCell row="12" col="0" rowSpan="1" colSpan="1" id="c_3471">
-                <Coords points="132,1064 130,1128 184,1128 184,1064"/>
-                <CornerPts>0 1 2 3</CornerPts>
-            </TableCell>
-            <TableCell row="12" col="1" rowSpan="1" colSpan="1" id="c_3475">
-                <Coords points="184,1064 184,1128 279,1129 279,1064"/>
-                <CornerPts>0 1 2 3</CornerPts>
-            </TableCell>
-            <TableCell row="12" col="2" rowSpan="1" colSpan="1" id="c_3479">
-                <Coords points="279,1064 279,1129 320,1129 320,1064"/>
-                <CornerPts>0 1 2 3</CornerPts>
-            </TableCell>
-            <TableCell row="12" col="3" rowSpan="1" colSpan="1" id="c_3483">
-                <Coords points="320,1064 320,1129 375,1129 375,1064"/>
-                <CornerPts>0 1 2 3</CornerPts>
-            </TableCell>
-            <TableCell row="12" col="4" rowSpan="1" colSpan="1" id="c_3487">
-                <Coords points="375,1064 375,1129 470,1130 470,1064"/>
-                <CornerPts>0 1 2 3</CornerPts>
-            </TableCell>
-            <TableCell row="12" col="5" rowSpan="1" colSpan="1" id="c_3491">
-                <Coords points="470,1064 470,1130 561,1131 561,1064"/>
-                <CornerPts>0 1 2 3</CornerPts>
-            </TableCell>
-            <TableCell row="12" col="6" rowSpan="1" colSpan="1" id="c_3495">
-                <Coords points="561,1064 561,1131 1047,1134 1047,1064"/>
-                <CornerPts>0 1 2 3</CornerPts>
-            </TableCell>
-            <TableCell row="12" col="7" rowSpan="1" colSpan="1" id="c_3499">
-                <Coords points="1047,1064 1047,1134 1092,1134 1092,1064"/>
-                <CornerPts>0 1 2 3</CornerPts>
-            </TableCell>
-            <TableCell row="12" col="8" rowSpan="1" colSpan="1" id="c_3503">
-                <Coords points="1092,1064 1092,1134 1135,1134 1135,1064"/>
+            <TableCell row="13" col="8" rowSpan="1" colSpan="1" id="c_346">
+                <Coords points="1091,1129 1078,1680 1121,1680 1134,1129"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>

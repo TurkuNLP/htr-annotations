@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-06-25T21:59:44.725+02:00</Created>
-        <LastChange>2024-07-09T13:25:01.756+02:00</LastChange>
-        <TranskribusMetadata docId="2992303" pageId="73573094" pageNr="47" tsid="177024212" status="DONE" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=IPXXQLLUTHBIALIAPRISGCWA&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EJSDXTBMBOVVKJIUDHZPUOGX" imageId="59432003"/>
+        <LastChange>2024-08-08T12:53:45.439+02:00</LastChange>
+        <TranskribusMetadata docId="2992303" pageId="73573094" pageNr="47" tsid="182007328" status="FINAL" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=IPXXQLLUTHBIALIAPRISGCWA&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=QWCCVBTVZPNSJKEXCBEHRQPU" imageId="59432003"/>
     </Metadata>
     <Page imageFilename="liperi_muuttaneet_1881-1891_mko1117-1118_32.jpg" imageWidth="2200" imageHeight="1583">
         <Relations/>
@@ -46,6 +46,13 @@
             </TableCell>
             <TableCell row="0" col="5" rowSpan="1" colSpan="1" id="c_1877">
                 <Coords points="920,358 920,422 981,422 981,358"/>
+                <TextLine id="l_400" custom="readingOrder {index:0;}">
+                    <Coords points="930,415 974,417 975,387 932,385"/>
+                    <Baseline points="930,415 974,417"/>
+                    <TextEquiv>
+                        <Unicode>26/2 63</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="0" col="6" rowSpan="1" colSpan="1" id="c_1881">
@@ -70,7 +77,7 @@
                     <Coords points="1523,409 1556,409 1556,384 1523,384"/>
                     <Baseline points="1523,409 1556,409"/>
                     <TextEquiv>
-                        <Unicode>2/1 89</Unicode>
+                        <Unicode>2/1 89.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -582,7 +589,7 @@
                     <Coords points="932,745 969,744 969,719 931,720"/>
                     <Baseline points="932,745 969,744"/>
                     <TextEquiv>
-                        <Unicode>26/8 68</Unicode>
+                        <Unicode>26/8 68.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -679,7 +686,7 @@
                     <Coords points="1524,777 1567,776 1566,749 1523,751"/>
                     <Baseline points="1524,777 1567,776"/>
                     <TextEquiv>
-                        <Unicode>22/2 81</Unicode>
+                        <Unicode>22/2 81.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -1008,7 +1015,7 @@
                     <Coords points="1523,987 1562,986 1561,959 1522,961"/>
                     <Baseline points="1523,987 1562,986"/>
                     <TextEquiv>
-                        <Unicode>27/2 89</Unicode>
+                        <Unicode>27/2 89.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>

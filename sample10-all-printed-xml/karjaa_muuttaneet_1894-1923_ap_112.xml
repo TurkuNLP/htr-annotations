@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-06-25T21:59:42.439+02:00</Created>
-        <LastChange>2024-07-09T09:30:11.236+02:00</LastChange>
-        <TranskribusMetadata docId="2992303" pageId="73571828" pageNr="28" tsid="176994990" status="DONE" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=LFLQIRQXBVZSNPYYQEMFANRB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MUOKHHLBFZFFGWKZAVPROKPH" imageId="59431938"/>
+        <LastChange>2024-08-08T12:28:41.902+02:00</LastChange>
+        <TranskribusMetadata docId="2992303" pageId="73571828" pageNr="28" tsid="182004424" status="FINAL" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=LFLQIRQXBVZSNPYYQEMFANRB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=OUDVVXTWXCTPBHMSEHCEDILP" imageId="59431938"/>
     </Metadata>
     <Page imageFilename="karjaa_muuttaneet_1894-1923_ap_112.jpg" imageWidth="5120" imageHeight="3840">
         <Relations/>
@@ -509,7 +509,7 @@
                     <Coords points="769,2216 833,2215 832,2194 768,2195"/>
                     <Baseline points="769,2216 833,2215"/>
                     <TextEquiv>
-                        <Unicode>28/11</Unicode>
+                        <Unicode>28/11.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -1043,6 +1043,51 @@
             </TableCell>
             <TableCell row="26" col="8" rowSpan="1" colSpan="1" id="c_5342">
                 <Coords points="2487,3663 2487,3784 2535,3784 2537,3663"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_246" custom="readingOrder {index:3;}">
+            <Coords points="2611,172 2611,511 4833,511 4833,172"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_247">
+                <Coords points="2611,172 2611,511 4833,511 4833,172"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_494" custom="readingOrder {index:4;}">
+            <Coords points="2618,525 2618,773 4828,773 4828,525"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_495">
+                <Coords points="2618,525 2616,754 4824,785 4828,525"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_1263" custom="readingOrder {index:5;}">
+            <Coords points="2612,757 2612,3771 4825,3771 4825,757"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_3337">
+                <Coords points="2612,757 2619,3775 2668,3775 2721,758"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="1" rowSpan="1" colSpan="1" id="c_3338">
+                <Coords points="2721,758 2668,3775 2957,3774 3009,762"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="2" rowSpan="1" colSpan="1" id="c_3074">
+                <Coords points="3009,762 2957,3774 3172,3774 3224,765"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="3" rowSpan="1" colSpan="1" id="c_2812">
+                <Coords points="3224,765 3172,3774 3373,3773 3425,768"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="4" rowSpan="1" colSpan="1" id="c_2552">
+                <Coords points="3425,768 3373,3773 4624,3771 4624,785"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="5" rowSpan="1" colSpan="1" id="c_2294">
+                <Coords points="4624,785 4624,3771 4731,3771 4731,787"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="6" rowSpan="1" colSpan="1" id="c_2038">
+                <Coords points="4731,787 4731,3771 4825,3771 4843,789"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
