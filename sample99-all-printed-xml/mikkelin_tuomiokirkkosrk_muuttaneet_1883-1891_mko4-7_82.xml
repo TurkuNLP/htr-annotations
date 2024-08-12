@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-07-15T15:51:31.531+03:00</Created>
-        <LastChange>2024-07-17T11:38:39.947+02:00</LastChange>
-        <TranskribusMetadata docId="3288986" pageId="75002795" pageNr="62" tsid="178137390" status="DONE" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=BCBBWIEMBRBNERYQHWRQCTEN&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=HHIWIVEMTDRGGWVDSJBPFUHF" imageId="60774377"/>
+        <LastChange>2024-08-12T09:46:29.273+02:00</LastChange>
+        <TranskribusMetadata docId="3288986" pageId="75002795" pageNr="62" tsid="182488451" status="FINAL" userId="244187" imgUrl="https://files.transkribus.eu/Get?id=BCBBWIEMBRBNERYQHWRQCTEN&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=SSMTAUJULGZLIKNFVTGMLBGI" imageId="60774377"/>
     </Metadata>
     <Page imageFilename="mikkelin_tuomiokirkkosrk_muuttaneet_1883-1891_mko4-7_82.jpg" imageWidth="2200" imageHeight="1757">
         <Relations/>
@@ -1030,6 +1030,59 @@
             </TableCell>
             <TableCell row="27" col="8" rowSpan="1" colSpan="1" id="c_3096">
                 <Coords points="910,1597 910,1649 1119,1649 1119,1597"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_255" custom="readingOrder {index:3;}">
+            <Coords points="1147,98 1147,237 2072,237 2072,98"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_256">
+                <Coords points="1147,98 1147,237 2078,218 2072,98"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_785" custom="readingOrder {index:4;}">
+            <Coords points="1147,245 1147,368 2094,368 2094,245"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_786">
+                <Coords points="1147,245 1145,372 2094,368 2097,231"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_1583" custom="readingOrder {index:5;}">
+            <Coords points="1143,374 1143,1660 2108,1660 2108,374"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_4018">
+                <Coords points="1143,374 1143,1660 1226,1659 1226,374"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="1" rowSpan="1" colSpan="1" id="c_4019">
+                <Coords points="1226,374 1226,1659 1266,1659 1266,374"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="2" rowSpan="1" colSpan="1" id="c_3742">
+                <Coords points="1266,374 1266,1659 1305,1659 1305,374"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="3" rowSpan="1" colSpan="1" id="c_3467">
+                <Coords points="1305,374 1305,1659 1632,1658 1632,374"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="4" rowSpan="1" colSpan="1" id="c_3194">
+                <Coords points="1632,374 1632,1658 1676,1658 1676,374"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="5" rowSpan="1" colSpan="1" id="c_2923">
+                <Coords points="1676,374 1676,1658 1721,1658 1721,374"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="6" rowSpan="1" colSpan="1" id="c_2654">
+                <Coords points="1721,374 1721,1658 1842,1658 1842,374"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="7" rowSpan="1" colSpan="1" id="c_2387">
+                <Coords points="1842,374 1842,1658 1880,1658 1880,374"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="8" rowSpan="1" colSpan="1" id="c_2121">
+                <Coords points="1880,374 1880,1658 2099,1658 2108,374"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
