@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-06-25T22:38:42.709+02:00</Created>
-        <LastChange>2024-08-01T07:08:41.732+02:00</LastChange>
-        <TranskribusMetadata docId="2992723" pageId="73583816" pageNr="79" tsid="180401082" status="DONE" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=JNAUHKEQNWLHVZIRTXRURGBS&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PXWTXLMFLQHLAXQFLXFCDPFT" imageId="59442850"/>
+        <LastChange>2024-08-09T12:23:19.014+02:00</LastChange>
+        <TranskribusMetadata docId="2992723" pageId="73583816" pageNr="79" tsid="182485862" status="FINAL" userId="244187" imgUrl="https://files.transkribus.eu/Get?id=JNAUHKEQNWLHVZIRTXRURGBS&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=SCLXBMGWFUAPBMUKCEYPPPHV" imageId="59442850"/>
     </Metadata>
     <Page imageFilename="turun_tuomiokirkkosrk_muuttaneet_1903-1907_ap_459.jpg" imageWidth="7008" imageHeight="4672">
         <TableRegion id="t" custom="readingOrder {index:0;}">
@@ -1065,6 +1065,47 @@
             </TableCell>
             <TableCell row="28" col="8" rowSpan="1" colSpan="1" id="c_5189">
                 <Coords points="3757,4192 3757,4314 3839,4314 3839,4192"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_264" custom="readingOrder {index:3;}">
+            <Coords points="3872,273 3872,645 6121,645 6121,273"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_265">
+                <Coords points="3872,273 3879,602 6178,638 6121,273"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_1084" custom="readingOrder {index:4;}">
+            <Coords points="3880,645 3880,924 6164,924 6164,645"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_1086">
+                <Coords points="3876,606 3876,867 6160,914 6160,606"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_2183" custom="readingOrder {index:5;}">
+            <Coords points="3898,921 3898,4296 6138,4296 6138,921"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_3573">
+                <Coords points="3898,921 3898,4296 4153,4296 4153,921"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="1" rowSpan="1" colSpan="1" id="c_3574">
+                <Coords points="4153,921 4153,4296 4404,4296 4404,921"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="2" rowSpan="1" colSpan="1" id="c_3294">
+                <Coords points="4404,921 4404,4296 4621,4296 4621,921"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="3" rowSpan="1" colSpan="1" id="c_3016">
+                <Coords points="4621,921 4621,4296 5916,4296 5916,921"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="4" rowSpan="1" colSpan="1" id="c_2740">
+                <Coords points="5916,921 5916,4296 6037,4296 6037,921"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="5" rowSpan="1" colSpan="1" id="c_2464">
+                <Coords points="6037,921 6037,4296 6138,4296 6138,921"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
