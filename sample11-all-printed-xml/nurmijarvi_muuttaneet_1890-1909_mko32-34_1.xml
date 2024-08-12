@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-06-25T22:15:38.928+02:00</Created>
-        <LastChange>2024-07-19T13:49:03.808+02:00</LastChange>
-        <TranskribusMetadata docId="2992423" pageId="73577448" pageNr="55" tsid="178487802" status="DONE" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=ZDUNZSWRAUDZXKCSUKWWZYHJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=VXZIIMEETLWHJMMLZNJZHVCW" imageId="59436589"/>
+        <LastChange>2024-08-09T07:07:45.073+02:00</LastChange>
+        <TranskribusMetadata docId="2992423" pageId="73577448" pageNr="55" tsid="182130105" status="FINAL" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=ZDUNZSWRAUDZXKCSUKWWZYHJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EFBWAOEDBUDQTONWAPKURADS" imageId="59436589"/>
     </Metadata>
     <Page imageFilename="nurmijarvi_muuttaneet_1890-1909_mko32-34_1.jpg" imageWidth="2200" imageHeight="1730">
         <Relations/>
@@ -922,6 +922,59 @@
             </TableCell>
             <TableCell row="24" col="8" rowSpan="1" colSpan="1" id="c_2676">
                 <Coords points="1857,1577 1859,1636 2024,1631 2022,1571"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_228" custom="readingOrder {index:3;}">
+            <Coords points="85,56 85,252 1018,252 1018,56"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_229">
+                <Coords points="85,56 85,252 1018,252 1018,56"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_458" custom="readingOrder {index:4;}">
+            <Coords points="72,250 72,440 1019,440 1019,250"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_459">
+                <Coords points="72,250 72,440 1019,440 1019,250"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+        </TableRegion>
+        <TableRegion id="t_689" custom="readingOrder {index:5;}">
+            <Coords points="79,442 79,1673 1034,1673 1034,442"/>
+            <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_2640">
+                <Coords points="79,442 79,1673 124,1673 124,442"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="1" rowSpan="1" colSpan="1" id="c_2641">
+                <Coords points="124,442 124,1673 192,1673 192,442"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="2" rowSpan="1" colSpan="1" id="c_2391">
+                <Coords points="192,442 192,1673 237,1673 237,442"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="3" rowSpan="1" colSpan="1" id="c_2143">
+                <Coords points="237,442 237,1673 286,1673 286,442"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="4" rowSpan="1" colSpan="1" id="c_1897">
+                <Coords points="286,442 286,1673 657,1673 657,442"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="5" rowSpan="1" colSpan="1" id="c_1652">
+                <Coords points="657,442 657,1673 797,1673 797,442"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="6" rowSpan="1" colSpan="1" id="c_1410">
+                <Coords points="797,442 797,1673 844,1673 844,442"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="7" rowSpan="1" colSpan="1" id="c_1170">
+                <Coords points="844,442 844,1673 893,1673 893,442"/>
+                <CornerPts>0 1 2 3</CornerPts>
+            </TableCell>
+            <TableCell row="0" col="8" rowSpan="1" colSpan="1" id="c_932">
+                <Coords points="893,442 893,1673 1034,1673 1034,442"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
