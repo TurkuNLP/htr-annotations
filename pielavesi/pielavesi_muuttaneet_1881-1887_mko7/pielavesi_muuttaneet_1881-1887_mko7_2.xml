@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-06-18T14:46:20.584+02:00</Created>
-        <LastChange>2024-09-24T13:25:27.984+02:00</LastChange>
-        <TranskribusMetadata docId="2879785" pageId="72991392" pageNr="2" tsid="189822361" status="IN_PROGRESS" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=EQISWYEMVJFHAUASFSWDERWK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MBJNLOGVIVHSEBXQSDWYCJHS" imageId="58896801"/>
+        <LastChange>2024-11-06T14:34:21.140+01:00</LastChange>
+        <TranskribusMetadata docId="2879785" pageId="72991392" pageNr="2" tsid="199603755" status="IN_PROGRESS" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=EQISWYEMVJFHAUASFSWDERWK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ZNHAHIHXXBHSHZBKUXBLPDQK" imageId="58896801"/>
     </Metadata>
     <Page imageFilename="pielavesi_muuttaneet_1881-1887_mko7_2.jpg" imageWidth="2200" imageHeight="1729">
         <TableRegion id="t" custom="readingOrder {index:0;}">
@@ -335,10 +335,24 @@
             </TableCell>
             <TableCell row="2" col="4" rowSpan="1" colSpan="1" id="c_549">
                 <Coords points="802,502 802,547 837,547 837,502"/>
+                <TextLine id="l_417" custom="readingOrder {index:0;}">
+                    <Coords points="808,543 826,544 828,514 810,513"/>
+                    <Baseline points="808,543 826,544"/>
+                    <TextEquiv>
+                        <Unicode>1.</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="2" col="5" rowSpan="1" colSpan="1" id="c_551">
                 <Coords points="837,502 837,547 894,547 894,502"/>
+                <TextLine id="l_832" custom="readingOrder {index:0;}">
+                    <Coords points="839,541 884,541 883,511 839,511"/>
+                    <Baseline points="839,541 884,541"/>
+                    <TextEquiv>
+                        <Unicode>18/5 1896</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="2" col="6" rowSpan="1" colSpan="1" id="c_553">
