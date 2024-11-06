@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-06-07T10:50:34.390+02:00</Created>
-        <LastChange>2024-09-04T14:20:11.754+02:00</LastChange>
-        <TranskribusMetadata docId="2705243" pageId="72351769" pageNr="47" tsid="186097918" status="DONE" userId="244187" imgUrl="https://files.transkribus.eu/Get?id=WYOHQRCIGFJQVBHNZQPSNUMG&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JKGVGLIRUYUNKLIRTGALQYKH" imageId="58318249"/>
+        <LastChange>2024-09-06T11:42:18.679+02:00</LastChange>
+        <TranskribusMetadata docId="2705243" pageId="72351769" pageNr="47" tsid="186446213" status="DONE" userId="194268" imgUrl="https://files.transkribus.eu/Get?id=WYOHQRCIGFJQVBHNZQPSNUMG&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JIGCMCFHDXCRCJGTDVJUFVUV" imageId="58318249"/>
     </Metadata>
     <Page imageFilename="langelmaki_muuttaneet_1891-1906_mko284-286_70.jpg" imageWidth="2200" imageHeight="1709">
         <Relations/>
@@ -29,7 +29,7 @@
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
-        <TableRegion id="t_560" custom="readingOrder {index:3;}">
+        <TableRegion id="t_560" custom="readingOrder {index:3;} structure {type:misc;}">
             <Coords points="1117,331 2098,331 2094,1675 1110,1676"/>
             <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_253">
                 <Coords points="1117,331 1117,417 1161,417 1161,331"/>
@@ -83,7 +83,7 @@
                 <Coords points="2006,417 2006,506 2052,506 2053,417"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="1" col="6" rowSpan="1" colSpan="1" id="c_505">
+            <TableCell row="1" col="6" rowSpan="1" colSpan="1" id="c_505" custom="structure {type:misc;}">
                 <Coords points="2053,417 2052,506 2097,506 2098,417"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
@@ -111,7 +111,7 @@
                 <Coords points="2006,506 2006,612 2052,612 2052,506"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="2" col="6" rowSpan="1" colSpan="1" id="c_742">
+            <TableCell row="2" col="6" rowSpan="1" colSpan="1" id="c_742" custom="structure {type:misc;}">
                 <Coords points="2052,506 2052,612 2097,612 2097,506"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
@@ -135,7 +135,7 @@
                 <Coords points="1474,611 1474,701 2006,702 2006,612"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="3" col="5" rowSpan="1" colSpan="1" id="c_234">
+            <TableCell row="3" col="5" rowSpan="1" colSpan="1" id="c_234" custom="structure {type:misc;}">
                 <Coords points="2006,612 2006,702 2052,702 2052,612"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
@@ -167,7 +167,7 @@
                 <Coords points="2006,702 2006,795 2052,795 2052,702"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="4" col="6" rowSpan="1" colSpan="1" id="c_497">
+            <TableCell row="4" col="6" rowSpan="1" colSpan="1" id="c_497" custom="structure {type:misc;}">
                 <Coords points="2052,702 2052,795 2097,795 2097,702"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
@@ -251,7 +251,7 @@
                 <Coords points="2006,992 2006,1086 2052,1086 2052,992"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="7" col="6" rowSpan="1" colSpan="1" id="c_1229">
+            <TableCell row="7" col="6" rowSpan="1" colSpan="1" id="c_1229" custom="structure {type:misc;}">
                 <Coords points="2052,992 2052,1086 2097,1086 2097,992"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
@@ -279,7 +279,7 @@
                 <Coords points="2006,1086 2006,1179 2052,1179 2052,1086"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="8" col="6" rowSpan="1" colSpan="1" id="c_1455">
+            <TableCell row="8" col="6" rowSpan="1" colSpan="1" id="c_1455" custom="structure {type:misc;}">
                 <Coords points="2052,1086 2052,1179 2097,1179 2097,1086"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
