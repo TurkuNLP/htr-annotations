@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-09-25T16:57:23.293+02:00</Created>
-        <LastChange>2024-10-29T09:05:30.836+01:00</LastChange>
-        <TranskribusMetadata docId="4346655" pageId="79197616" pageNr="13" tsid="196804734" status="IN_PROGRESS" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=MRPEURJGAFWPIPBNMFDLLAVX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WJQGVFRPTXIWXSQGPVSBGQXC" imageId="64738148"/>
+        <LastChange>2024-11-20T13:13:14.903+01:00</LastChange>
+        <TranskribusMetadata docId="4346655" pageId="79197616" pageNr="13" tsid="205621317" status="IN_PROGRESS" userId="194268" imgUrl="https://files.transkribus.eu/Get?id=MRPEURJGAFWPIPBNMFDLLAVX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=PUPSTBGAGQBGGJUQGGRXNIFH" imageId="64738148"/>
     </Metadata>
     <Page imageFilename="mands-karvia_muuttaneet_1884-1893_jk507_7.jpg" imageWidth="2002" imageHeight="1585">
         <TableRegion id="t_2" custom="readingOrder {index:0;}">
@@ -114,14 +114,35 @@
             </TableCell>
             <TableCell row="1" col="1" rowSpan="1" colSpan="1" id="c_1057" custom="structure {type:line;}">
                 <Coords points="112,213 112,256 150,256 150,213"/>
+                <TextLine id="l" custom="readingOrder {index:0;}">
+                    <Coords points="119,240 139,240 139,210 119,210"/>
+                    <Baseline points="119,240 139,240"/>
+                    <TextEquiv>
+                        <Unicode>18</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="1" col="2" rowSpan="1" colSpan="1" id="c_1059" custom="structure {type:line;}">
                 <Coords points="150,213 150,256 193,256 193,213"/>
+                <TextLine id="l_2403" custom="readingOrder {index:0;}">
+                    <Coords points="156,243 185,242 185,212 155,213"/>
+                    <Baseline points="156,243 185,242"/>
+                    <TextEquiv>
+                        <Unicode>333</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="1" col="3" rowSpan="1" colSpan="1" id="c_1061" custom="structure {type:line;}">
                 <Coords points="193,213 193,256 223,256 223,213"/>
+                <TextLine id="l_2880" custom="readingOrder {index:0;}">
+                    <Coords points="200,243 216,243 216,213 200,213"/>
+                    <Baseline points="200,243 216,243"/>
+                    <TextEquiv>
+                        <Unicode>2</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="1" col="4" rowSpan="1" colSpan="1" id="c_1063" custom="structure {type:multi-line;}">
@@ -148,7 +169,8 @@
                     <Coords points="728,252 790,254 791,224 729,222"/>
                     <Baseline points="728,252 790,254"/>
                     <TextEquiv>
-                        <Unicode>?</Unicode>
+                        <Unicode>Sievi
+</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -454,7 +476,7 @@
                     <Coords points="25,425 104,428 105,398 26,395"/>
                     <Baseline points="25,425 104,428"/>
                     <TextEquiv>
-                        <Unicode>Huhtik</Unicode>
+                        <Unicode>Huhtik.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -509,7 +531,8 @@
                     <Coords points="709,425 774,428 775,398 710,395"/>
                     <Baseline points="709,425 774,428"/>
                     <TextEquiv>
-                        <Unicode>?</Unicode>
+                        <Unicode>Isojoki
+</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -553,7 +576,7 @@
                     <Coords points="18,470 101,471 102,441 19,440"/>
                     <Baseline points="18,470 101,471"/>
                     <TextEquiv>
-                        <Unicode>Heinäk</Unicode>
+                        <Unicode>Heinäk.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -693,7 +716,8 @@
                     <Coords points="703,521 796,521 796,491 703,491"/>
                     <Baseline points="703,521 796,521"/>
                     <TextEquiv>
-                        <Unicode>?</Unicode>
+                        <Unicode>Kauhajoki
+</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -815,7 +839,7 @@
                     <Coords points="17,598 101,600 102,570 18,568"/>
                     <Baseline points="17,598 101,600"/>
                     <TextEquiv>
-                        <Unicode>Loka?</Unicode>
+                        <Unicode>Lokak.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>

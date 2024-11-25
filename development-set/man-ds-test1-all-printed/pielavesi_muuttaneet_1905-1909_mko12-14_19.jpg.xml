@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-08-28T12:49:13.230+02:00</Created>
-        <LastChange>2024-11-18T11:35:04.889+01:00</LastChange>
-        <TranskribusMetadata docId="3891301" pageId="77206669" pageNr="13" tsid="204595641" status="DONE" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=NSHWWZQWXIZVHTJPPXREIPIU&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EHIFAUIXKAPDGBRNCYMSZUPV" imageId="62847726"/>
+        <LastChange>2024-11-22T10:29:32.200+01:00</LastChange>
+        <TranskribusMetadata docId="3891301" pageId="77206669" pageNr="13" tsid="206413559" status="DONE" userId="194268" imgUrl="https://files.transkribus.eu/Get?id=NSHWWZQWXIZVHTJPPXREIPIU&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WNAKAXKUOJIMATUCFKGTHHMW" imageId="62847726"/>
     </Metadata>
     <Page imageFilename="pielavesi_muuttaneet_1905-1909_mko12-14_19.jpg.jpg" imageWidth="2065" imageHeight="1594">
         <TableRegion id="t" custom="readingOrder {index:0;}">
@@ -1808,11 +1808,18 @@
             </TableCell>
             <TableCell row="20" col="4" rowSpan="1" colSpan="1" id="c_7424" custom="structure {type:multi-line;}">
                 <Coords points="632,1082 632,1120 702,1120 702,1082"/>
-                <TextLine id="l_1292" custom="readingOrder {index:0;}">
+                <TextLine id="l_646" custom="readingOrder {index:0;}">
+                    <Coords points="638,1089 683,1090 683,1060 638,1059"/>
+                    <Baseline points="638,1089 683,1090"/>
+                    <TextEquiv>
+                        <Unicode>1.11</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="l_1292" custom="readingOrder {index:1;}">
                     <Coords points="637,1117 692,1114 691,1084 636,1087"/>
                     <Baseline points="637,1117 692,1114"/>
                     <TextEquiv>
-                        <Unicode>1.11 1888</Unicode>
+                        <Unicode>1888</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -1917,11 +1924,18 @@
             </TableCell>
             <TableCell row="21" col="4" rowSpan="1" colSpan="1" id="c_8000" custom="structure {type:multi-line;}">
                 <Coords points="632,1120 632,1163 702,1163 702,1120"/>
-                <TextLine id="l_5795" custom="readingOrder {index:0;}">
+                <TextLine id="l_1293" custom="readingOrder {index:0;}">
+                    <Coords points="638,1131 681,1131 681,1101 638,1101"/>
+                    <Baseline points="638,1131 681,1131"/>
+                    <TextEquiv>
+                        <Unicode>13.9</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="l_5795" custom="readingOrder {index:1;}">
                     <Coords points="638,1160 689,1158 689,1128 637,1130"/>
                     <Baseline points="638,1160 689,1158"/>
                     <TextEquiv>
-                        <Unicode>13.9 1891</Unicode>
+                        <Unicode>1891</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -2128,11 +2142,18 @@
             </TableCell>
             <TableCell row="23" col="4" rowSpan="1" colSpan="1" id="c_9221" custom="structure {type:multi-line;}">
                 <Coords points="632,1201 632,1243 702,1243 702,1201"/>
-                <TextLine id="l_14807" custom="readingOrder {index:0;}">
+                <TextLine id="l_1940" custom="readingOrder {index:0;}">
+                    <Coords points="638,1211 684,1211 684,1181 638,1181"/>
+                    <Baseline points="638,1211 684,1211"/>
+                    <TextEquiv>
+                        <Unicode>26.9</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="l_14807" custom="readingOrder {index:1;}">
                     <Coords points="637,1237 690,1236 689,1206 637,1207"/>
                     <Baseline points="637,1237 690,1236"/>
                     <TextEquiv>
-                        <Unicode>26.9 1888</Unicode>
+                        <Unicode>1888</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -2215,11 +2236,18 @@
             </TableCell>
             <TableCell row="23" col="17" rowSpan="1" colSpan="1" id="c_9247" custom="structure {type:multi-line;}">
                 <Coords points="1423,1201 1423,1243 1466,1243 1466,1201"/>
-                <TextLine id="l_20595" custom="readingOrder {index:0;}">
+                <TextLine id="l_10281" custom="readingOrder {index:0;}">
+                    <Coords points="1430,1210 1458,1209 1456,1179 1429,1180"/>
+                    <Baseline points="1430,1210 1458,1209"/>
+                    <TextEquiv>
+                        <Unicode>23.12</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="l_20595" custom="readingOrder {index:1;}">
                     <Coords points="1426,1238 1459,1238 1460,1208 1427,1208"/>
                     <Baseline points="1426,1238 1459,1238"/>
                     <TextEquiv>
-                        <Unicode>23.12 1905</Unicode>
+                        <Unicode>1905</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -2286,7 +2314,7 @@
                     <Coords points="239,1266 618,1266 618,1236 239,1236"/>
                     <Baseline points="239,1266 618,1266"/>
                     <TextEquiv>
-                        <Unicode>Renki Lasse Wille Skon??</Unicode>
+                        <Unicode>Renki Lasse Wille Skonn</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -2388,11 +2416,18 @@
             </TableCell>
             <TableCell row="25" col="4" rowSpan="1" colSpan="1" id="c_10534" custom="structure {type:multi-line;}">
                 <Coords points="632,1272 632,1314 702,1320 702,1272"/>
-                <TextLine id="l_30244" custom="readingOrder {index:0;}">
+                <TextLine id="l_2587" custom="readingOrder {index:0;}">
+                    <Coords points="637,1283 682,1285 683,1255 637,1253"/>
+                    <Baseline points="637,1283 682,1285"/>
+                    <TextEquiv>
+                        <Unicode>30.4</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="l_30244" custom="readingOrder {index:1;}">
                     <Coords points="638,1310 689,1312 690,1282 640,1280"/>
                     <Baseline points="638,1310 689,1312"/>
                     <TextEquiv>
-                        <Unicode>30/4 1882 </Unicode>
+                        <Unicode>1882 </Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -2627,11 +2662,18 @@
             </TableCell>
             <TableCell row="27" col="4" rowSpan="1" colSpan="1" id="c_11939" custom="structure {type:multi-line;}">
                 <Coords points="632,1353 632,1392 702,1392 702,1353"/>
-                <TextLine id="l_44390" custom="readingOrder {index:0;}">
+                <TextLine id="l_3234" custom="readingOrder {index:0;}">
+                    <Coords points="637,1361 681,1362 682,1332 638,1331"/>
+                    <Baseline points="637,1361 681,1362"/>
+                    <TextEquiv>
+                        <Unicode>10.4</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="l_44390" custom="readingOrder {index:1;}">
                     <Coords points="635,1386 692,1387 692,1357 635,1356"/>
                     <Baseline points="635,1386 692,1387"/>
                     <TextEquiv>
-                        <Unicode>10.4 1889</Unicode>
+                        <Unicode>1889</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>

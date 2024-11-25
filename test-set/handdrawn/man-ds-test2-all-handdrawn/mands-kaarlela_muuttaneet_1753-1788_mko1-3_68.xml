@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-09-25T16:57:24.656+02:00</Created>
-        <LastChange>2024-10-29T12:16:23.824+01:00</LastChange>
-        <TranskribusMetadata docId="4346655" pageId="79197738" pageNr="24" tsid="196868775" status="IN_PROGRESS" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=FCWMHZCXAWIDKEQPYMTFSACH&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JSYTRSWPUPMNMPTMZZHZETPI" imageId="64738163"/>
+        <LastChange>2024-11-21T09:19:34.012+01:00</LastChange>
+        <TranskribusMetadata docId="4346655" pageId="79197738" pageNr="24" tsid="205944624" status="IN_PROGRESS" userId="194268" imgUrl="https://files.transkribus.eu/Get?id=FCWMHZCXAWIDKEQPYMTFSACH&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=HCGYPKYZTWMNYBTJWLOAZFEY" imageId="64738163"/>
     </Metadata>
     <Page imageFilename="mands-kaarlela_muuttaneet_1753-1788_mko1-3_68.jpg" imageWidth="2068" imageHeight="1614">
         <TableRegion id="t" custom="readingOrder {index:0;}">
@@ -14,7 +14,7 @@
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
         </TableRegion>
-        <TableRegion id="t_17" custom="readingOrder {index:1;}">
+        <TableRegion id="t_17" custom="readingOrder {index:1;} structure {type:line;}">
             <Coords points="0,85 0,775 936,775 936,85"/>
             <TableCell row="0" col="0" rowSpan="1" colSpan="1" id="c_556">
                 <Coords points="0,85 0,252 89,252 89,85"/>
@@ -1033,8 +1033,15 @@
                 <Coords points="710,1131 710,1158 794,1158 794,1131"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="26" col="8" rowSpan="1" colSpan="1" id="c_11901" custom="structure {type:same-as;}">
+            <TableCell row="26" col="8" rowSpan="1" colSpan="1" id="c_11901" custom="structure {type:line;}">
                 <Coords points="794,1131 794,1158 1033,1158 1033,1131"/>
+                <TextLine id="l_3753" custom="readingOrder {index:0;}">
+                    <Coords points="815,1150 905,1152 905,1152 904,1152 903,1152 903,1182 904,1182 845,1152 905,1122 815,1120"/>
+                    <Baseline points="815,1150 905,1152 905,1152 904,1152 903,1152"/>
+                    <TextEquiv>
+                        <Unicode>Dito</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="27" col="0" rowSpan="1" colSpan="1" id="c_12851" custom="structure {type:line;}">
@@ -1124,7 +1131,7 @@
                     <Coords points="817,1183 966,1185 967,1155 817,1153"/>
                     <Baseline points="817,1183 966,1185"/>
                     <TextEquiv>
-                        <Unicode>Uleabor</Unicode>
+                        <Unicode>Uleåborg</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -1308,7 +1315,7 @@
                     <Coords points="813,1249 973,1247 973,1217 812,1219"/>
                     <Baseline points="813,1249 973,1247"/>
                     <TextEquiv>
-                        <Unicode>Wilasaari</Unicode>
+                        <Unicode>Witasaari</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -1394,8 +1401,15 @@
                 <Coords points="710,1252 710,1281 794,1281 794,1252"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="30" col="8" rowSpan="1" colSpan="1" id="c_655" custom="structure {type:same-as;}">
+            <TableCell row="30" col="8" rowSpan="1" colSpan="1" id="c_655" custom="structure {type:line;}">
                 <Coords points="794,1252 794,1281 1033,1281 1033,1252"/>
+                <TextLine id="l_4446" custom="readingOrder {index:0;}">
+                    <Coords points="818,1269 891,1270 892,1240 818,1239"/>
+                    <Baseline points="818,1269 891,1270"/>
+                    <TextEquiv>
+                        <Unicode>Dito</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="31" col="0" rowSpan="1" colSpan="1" id="c_979" custom="structure {type:line;}">
@@ -1479,8 +1493,15 @@
                 <Coords points="710,1281 710,1305 794,1305 794,1281"/>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="31" col="8" rowSpan="1" colSpan="1" id="c_995" custom="structure {type:same-as;}">
+            <TableCell row="31" col="8" rowSpan="1" colSpan="1" id="c_995" custom="structure {type:line;}">
                 <Coords points="794,1281 794,1305 1033,1305 1033,1281"/>
+                <TextLine id="l_5143" custom="readingOrder {index:0;}">
+                    <Coords points="813,1296 816,1295 899,1294 899,1264 812,1265 805,1267"/>
+                    <Baseline points="813,1296 816,1295 899,1294"/>
+                    <TextEquiv>
+                        <Unicode>Dito</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="32" col="0" rowSpan="1" colSpan="1" id="c_1329" custom="structure {type:line;}">
@@ -1570,7 +1591,7 @@
                     <Coords points="815,1326 906,1326 906,1326 905,1325 888,1350 856,1311 906,1296 815,1296"/>
                     <Baseline points="815,1326 906,1326 906,1326 905,1325"/>
                     <TextEquiv>
-                        <Unicode>Kelvra</Unicode>
+                        <Unicode>Kelviå</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -1669,7 +1690,7 @@
                     <Coords points="814,1354 914,1353 913,1323 813,1324"/>
                     <Baseline points="814,1354 914,1353"/>
                     <TextEquiv>
-                        <Unicode>Kelvra</Unicode>
+                        <Unicode>Kelviå</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -1761,7 +1782,7 @@
                     <Coords points="817,1379 933,1381 933,1351 817,1349"/>
                     <Baseline points="817,1379 933,1381"/>
                     <TextEquiv>
-                        <Unicode>Wilasari</Unicode>
+                        <Unicode>Witasari</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -1853,7 +1874,7 @@
                     <Coords points="821,1407 1013,1407 1013,1377 821,1377"/>
                     <Baseline points="821,1407 1013,1407"/>
                     <TextEquiv>
-                        <Unicode>Dito Sarajärvi</Unicode>
+                        <Unicode>Dito Sarijärvi</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -2037,7 +2058,7 @@
                     <Coords points="819,1472 988,1469 987,1439 819,1442"/>
                     <Baseline points="819,1472 988,1469"/>
                     <TextEquiv>
-                        <Unicode>?</Unicode>
+                        <Unicode>Neder Vetil</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -2129,7 +2150,7 @@
                     <Coords points="820,1501 976,1503 976,1473 820,1471"/>
                     <Baseline points="820,1501 976,1503"/>
                     <TextEquiv>
-                        <Unicode>Sarejärvi</Unicode>
+                        <Unicode>Sarijärvi</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -2313,7 +2334,8 @@
                     <Coords points="816,1561 947,1559 947,1529 815,1531"/>
                     <Baseline points="816,1561 947,1559"/>
                     <TextEquiv>
-                        <Unicode>?</Unicode>
+                        <Unicode>Jacobstad
+</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -2405,7 +2427,7 @@
                     <Coords points="820,1601 1012,1594 1011,1564 818,1571"/>
                     <Baseline points="820,1601 1032,1599"/>
                     <TextEquiv>
-                        <Unicode>Teirijärvi -</Unicode>
+                        <Unicode>Teerijärvi -</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>

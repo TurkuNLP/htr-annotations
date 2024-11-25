@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-09-25T16:53:46.582+02:00</Created>
-        <LastChange>2024-10-17T08:29:33.135+02:00</LastChange>
-        <TranskribusMetadata docId="4346654" pageId="79196100" pageNr="3" tsid="194252874" status="DONE" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=RJGXYDVTYLGBOJUJYMQGEIHY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=WTQUZBMRIWCZDBMYSGLWRJDY" imageId="64735876"/>
+        <LastChange>2024-11-20T09:22:51.377+01:00</LastChange>
+        <TranskribusMetadata docId="4346654" pageId="79196100" pageNr="3" tsid="205492427" status="DONE" userId="194268" imgUrl="https://files.transkribus.eu/Get?id=RJGXYDVTYLGBOJUJYMQGEIHY&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=BABJDNRHNDIHHMJCMGLFBLLI" imageId="64735876"/>
     </Metadata>
     <Page imageFilename="mands-pernio_muuttaneet_1881-1890_ap_36.jpg" imageWidth="2500" imageHeight="2087">
         <TableRegion id="t" custom="readingOrder {index:0;}">
@@ -468,7 +468,7 @@
                     <Coords points="796,1082 930,1082 930,1052 796,1052"/>
                     <Baseline points="796,1082 930,1082"/>
                     <TextEquiv>
-                        <Unicode>Muuslast</Unicode>
+                        <Unicode>Muurlasta</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -484,7 +484,7 @@
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="9" col="8" rowSpan="1" colSpan="1" id="c_12978">
+            <TableCell row="9" col="8" rowSpan="1" colSpan="1" id="c_12978" custom="structure {type:line;}">
                 <Coords points="997,1026 997,1088 1227,1084 1227,1022"/>
                 <TextLine id="l_41702" custom="readingOrder {index:0;}">
                     <Coords points="1021,1079 1193,1071 1191,1041 1019,1049"/>
@@ -589,7 +589,7 @@
                     <Coords points="1008,1149 1199,1143 1198,1113 1007,1119"/>
                     <Baseline points="1008,1149 1199,1143"/>
                     <TextEquiv>
-                        <Unicode>hm. naimat</Unicode>
+                        <Unicode>hm. naimat.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -626,7 +626,7 @@
                     <Coords points="279,1231 651,1229 651,1199 278,1201"/>
                     <Baseline points="279,1231 651,1229"/>
                     <TextEquiv>
-                        <Unicode>do Hilda Eh. Willstön ja  ap.l.</Unicode>
+                        <Unicode>do Hilda Eh. Willstön ja  äp.l.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -855,7 +855,7 @@
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="13" col="7" rowSpan="1" colSpan="1" id="c_14616" custom="structure {type:line;}">
+            <TableCell row="13" col="7" rowSpan="1" colSpan="1" id="c_14616" custom="structure {type:multi-line;}">
                 <Coords points="936,1297 939,1370 995,1370 996,1296"/>
                 <TextLine id="l_83428" custom="readingOrder {index:0;}">
                     <Coords points="946,1325 978,1326 979,1296 946,1295"/>

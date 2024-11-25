@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-08-28T12:49:13.122+02:00</Created>
-        <LastChange>2024-11-18T14:26:38.570+01:00</LastChange>
-        <TranskribusMetadata docId="3891301" pageId="77206652" pageNr="12" tsid="204655976" status="DONE" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=NFCWFOGBXYNFCKUCGYMIVCIK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RKJFSIBISTJAPRXZZNZNRIDS" imageId="62847709"/>
+        <LastChange>2024-11-22T10:21:58.444+01:00</LastChange>
+        <TranskribusMetadata docId="3891301" pageId="77206652" pageNr="12" tsid="206408719" status="DONE" userId="194268" imgUrl="https://files.transkribus.eu/Get?id=NFCWFOGBXYNFCKUCGYMIVCIK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=UHMHTBZAPRFBXCFEFVNKPQLG" imageId="62847709"/>
     </Metadata>
     <Page imageFilename="kitee_muuttaneet_1903-1906_mko847_20.jpg.jpg" imageWidth="2063" imageHeight="1659">
         <TableRegion id="t" custom="readingOrder {index:0;}">
@@ -2646,13 +2646,20 @@
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
-            <TableCell row="28" col="17" rowSpan="1" colSpan="1" id="c_11512" custom="structure {type:line;}">
+            <TableCell row="28" col="17" rowSpan="1" colSpan="1" id="c_11512" custom="structure {type:multi-line;}">
                 <Coords points="1428,1486 1428,1532 1491,1532 1491,1486"/>
-                <TextLine id="l_6275" custom="readingOrder {index:0;}">
+                <TextLine id="l_2123" custom="readingOrder {index:0;}">
+                    <Coords points="1437,1496 1479,1496 1479,1466 1437,1466"/>
+                    <Baseline points="1437,1496 1479,1496"/>
+                    <TextEquiv>
+                        <Unicode>1/12</Unicode>
+                    </TextEquiv>
+                </TextLine>
+                <TextLine id="l_6275" custom="readingOrder {index:1;}">
                     <Coords points="1438,1527 1483,1527 1483,1497 1438,1497"/>
                     <Baseline points="1438,1527 1483,1527"/>
                     <TextEquiv>
-                        <Unicode>1/12 1905.</Unicode>
+                        <Unicode>1905.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -2756,7 +2763,7 @@
                     <Coords points="915,1568 981,1568 981,1538 915,1538"/>
                     <Baseline points="915,1568 981,1568"/>
                     <TextEquiv>
-                        <Unicode>Kelpaa?</Unicode>
+                        <Unicode>Kelpaamt.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>

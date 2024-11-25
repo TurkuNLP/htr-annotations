@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-09-25T16:57:23.374+02:00</Created>
-        <LastChange>2024-10-29T09:11:56.567+01:00</LastChange>
-        <TranskribusMetadata docId="4346655" pageId="79197697" pageNr="14" tsid="196808048" status="IN_PROGRESS" userId="246965" imgUrl="https://files.transkribus.eu/Get?id=OXOJRXFUPCLICNMMZEWICQFE&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GUIGQAEFDQWNSXPKCJCRVUEI" imageId="64738122"/>
+        <LastChange>2024-11-20T13:19:13.766+01:00</LastChange>
+        <TranskribusMetadata docId="4346655" pageId="79197697" pageNr="14" tsid="205624805" status="IN_PROGRESS" userId="194268" imgUrl="https://files.transkribus.eu/Get?id=OXOJRXFUPCLICNMMZEWICQFE&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=REFWMGNFGXCXNJQQFQBHLEIH" imageId="64738122"/>
     </Metadata>
     <Page imageFilename="mands-kiikoinen_muuttaneet_1853-1883_jk813_44.jpg" imageWidth="1037" imageHeight="1507">
         <TableRegion id="t" custom="readingOrder {index:0;} structure {type:empty;}">
@@ -48,7 +48,7 @@
                     <Coords points="308,62 594,67 595,37 308,32"/>
                     <Baseline points="308,62 594,67"/>
                     <TextEquiv>
-                        <Unicode>Torpan dottren Eva</Unicode>
+                        <Unicode>Torpare dottren Eva</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextLine id="l_1057" custom="readingOrder {index:1;}">
@@ -66,7 +66,7 @@
                     <Coords points="624,93 717,93 717,63 624,63"/>
                     <Baseline points="624,93 717,93"/>
                     <TextEquiv>
-                        <Unicode>vilf. ad? oq</Unicode>
+                        <Unicode>vilf. ad? og</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -268,14 +268,14 @@
                     <Coords points="305,214 587,217 587,187 305,184"/>
                     <Baseline points="305,214 587,217"/>
                     <TextEquiv>
-                        <Unicode>f. Torparid Kristina</Unicode>
+                        <Unicode>f. Torpared. Kristina</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <TextLine id="l_4160" custom="readingOrder {index:1;}">
                     <Coords points="313,247 474,246 474,216 313,217"/>
                     <Baseline points="313,247 474,246"/>
                     <TextEquiv>
-                        <Unicode>Juhanod</Unicode>
+                        <Unicode>Juhansd</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -319,17 +319,31 @@
                     <Coords points="880,255 955,256 955,227 881,225"/>
                     <Baseline points="880,255 955,256"/>
                     <TextEquiv>
-                        <Unicode>Lavia.</Unicode>
+                        <Unicode>Luvia.</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="2" col="8" rowSpan="1" colSpan="1" id="c_357" custom="structure {type:line;}">
                 <Coords points="983,167 983,259 1013,259 1013,167"/>
+                <TextLine id="l_493" custom="readingOrder {index:0;}">
+                    <Coords points="988,248 1003,248 1002,218 987,218"/>
+                    <Baseline points="988,248 1003,248"/>
+                    <TextEquiv>
+                        <Unicode>-</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="2" col="9" rowSpan="1" colSpan="1" id="c_359" custom="structure {type:line;}">
                 <Coords points="1013,167 1013,259 1038,259 1038,167"/>
+                <TextLine id="l_426" custom="readingOrder {index:0;}">
+                    <Coords points="1018,249 1031,249 1031,219 1018,219"/>
+                    <Baseline points="1018,249 1031,249"/>
+                    <TextEquiv>
+                        <Unicode>1</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="3" col="0" rowSpan="1" colSpan="1" id="c_417" custom="structure {type:empty;}">

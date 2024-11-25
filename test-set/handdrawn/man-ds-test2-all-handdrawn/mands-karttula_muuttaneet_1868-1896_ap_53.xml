@@ -3,8 +3,8 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2024-09-25T16:57:23.200+02:00</Created>
-        <LastChange>2024-11-07T10:30:33.027+01:00</LastChange>
-        <TranskribusMetadata docId="4346655" pageId="79197615" pageNr="12" tsid="199779748" status="IN_PROGRESS" userId="194268" imgUrl="https://files.transkribus.eu/Get?id=MVNWMMGNQWCMNKOFFKHQXVQL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=EDPDRCUDLWDMDYOPFZDBZKSP" imageId="64738147"/>
+        <LastChange>2024-11-20T13:02:18.429+01:00</LastChange>
+        <TranskribusMetadata docId="4346655" pageId="79197615" pageNr="12" tsid="205614495" status="IN_PROGRESS" userId="194268" imgUrl="https://files.transkribus.eu/Get?id=MVNWMMGNQWCMNKOFFKHQXVQL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=LECWSHYKDWYVRULNOPYXALNT" imageId="64738147"/>
     </Metadata>
     <Page imageFilename="mands-karttula_muuttaneet_1868-1896_ap_53.jpg" imageWidth="2500" imageHeight="1974">
         <TableRegion id="t" custom="readingOrder {index:0;}">
@@ -2785,7 +2785,7 @@
                     <Coords points="257,1647 740,1654 740,1624 257,1617"/>
                     <Baseline points="257,1647 740,1654"/>
                     <TextEquiv>
-                        <Unicode>Renki Johan Teodor Heikinp. Tossaaai?</Unicode>
+                        <Unicode>Renki Johan Teodor Heikinp. Tossavainen</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -2903,7 +2903,7 @@
                     <Coords points="1869,1644 1988,1639 1987,1609 1868,1614"/>
                     <Baseline points="1869,1644 1988,1639"/>
                     <TextEquiv>
-                        <Unicode>Uttrianlax?</Unicode>
+                        <Unicode>Uttrialax</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -3142,7 +3142,7 @@
                     <Coords points="263,1741 746,1747 746,1717 263,1711"/>
                     <Baseline points="263,1741 746,1747"/>
                     <TextEquiv>
-                        <Unicode>Lois Kustaa Heikki Hyllinen</Unicode>
+                        <Unicode>Lois Kustaa Heikki Hyttinen</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -3379,7 +3379,7 @@
                     <Coords points="1049,1801 1177,1802 1177,1772 1050,1771"/>
                     <Baseline points="1049,1801 1177,1802"/>
                     <TextEquiv>
-                        <Unicode>Rautalamp</Unicode>
+                        <Unicode>Rautalampi</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -3877,7 +3877,7 @@
                     <Coords points="256,1930 744,1933 744,1903 256,1900"/>
                     <Baseline points="256,1930 744,1933"/>
                     <TextEquiv>
-                        <Unicode>Renki Vilhelm Malina</Unicode>
+                        <Unicode>Renki Vilhelm Malinen</Unicode>
                     </TextEquiv>
                 </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
@@ -4052,10 +4052,24 @@
             </TableCell>
             <TableCell row="36" col="4" rowSpan="1" colSpan="1" id="c_237212" custom="structure {type:line;}">
                 <Coords points="756,1939 757,1967 815,1967 815,1939"/>
+                <TextLine id="l_3265" custom="readingOrder {index:0;}">
+                    <Coords points="768,1952 802,1952 802,1922 768,1922"/>
+                    <Baseline points="768,1952 802,1952"/>
+                    <TextEquiv>
+                        <Unicode>35</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="36" col="5" rowSpan="1" colSpan="1" id="c_237214" custom="structure {type:line;}">
                 <Coords points="815,1939 815,1967 865,1967 865,1939"/>
+                <TextLine id="l_4051" custom="readingOrder {index:0;}">
+                    <Coords points="825,1952 856,1952 856,1922 825,1922"/>
+                    <Baseline points="825,1952 856,1952"/>
+                    <TextEquiv>
+                        <Unicode>37</Unicode>
+                    </TextEquiv>
+                </TextLine>
                 <CornerPts>0 1 2 3</CornerPts>
             </TableCell>
             <TableCell row="36" col="6" rowSpan="1" colSpan="1" id="c_237216" custom="structure {type:empty;}">
