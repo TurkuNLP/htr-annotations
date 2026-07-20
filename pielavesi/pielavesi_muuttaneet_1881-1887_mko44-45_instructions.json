@@ -1,0 +1,67 @@
+{
+    "metadata": {
+        "dataset_id": "",
+        "document_type": "handwriting",
+        "example_id": "",
+        "languages": ["Finnish", "Swedish"],
+        "main_language": "Finnish",
+        "main_script": "Latin",
+        "scripts": ["Latin"]
+    },
+    "xml_metadata": {
+        "Language": ["Finnish", "Swedish"],
+        "WritingDirection": "ltr",
+        "PhysicalDescription": "Handwritten entries on a pre-printed table.",
+        "Description": "Spread from Pielavesi emigration churchbook.",
+        "Script": "Latin"
+    },
+    "filename_format": {
+        "sep": "_",
+        "fields": {
+            "parish": 0,
+            "churchbook": 1,
+            "years": 2,
+            "source": 3,
+            "pagenr": 4
+        }
+    },
+    "join_tables": {
+        "1": [["horizontal", 2, 3, 1], ["vertical", 1, 2, true]],
+        "2": [["vertical", 1, 2, true]],
+        "3": [["horizontal", 2, 3, 1], ["vertical", 1, 2, true]],
+        "4": [["vertical", 1, 2, true]],
+        "5": [["vertical", 1, 2, true]],
+        "6": [["vertical", 1, 2, true]],
+        "7": [["vertical", 1, 2, true]],
+        "8": [["vertical", 1, 2, true]],
+        "9": [["vertical", 1, 2, true]],
+        "10": [["vertical", 1, 2, true]],
+        "11": [["vertical", 1, 2, true]],
+        "12": [["vertical", 1, 2, true]],
+        "13": [["vertical", 1, 2, true]],
+        "14": [["vertical", 1, 2, true]],
+        "15": [["vertical", 1, 2, true]],
+        "16": [["vertical", 1, 2, true]],
+        "17": [["vertical", 1, 2, true]],
+        "18": [["vertical", 1, 2, true]],
+        "19": [["vertical", 1, 2, true]],
+        "20": [["vertical", 1, 2, true]],
+        "21": [["vertical", 1, 2, true]],
+        "22": [["vertical", 1, 2, true]],
+        "23": [["vertical", 1, 2, true]],
+        "24": [["vertical", 1, 2, true]],
+        "25": [["vertical", 1, 2, true]],
+        "26": [["vertical", 1, 2, true]],
+        "27": [["vertical", 1, 2, true]],
+        "28": [["vertical", 1, 2, true]],
+        "29": [["vertical", 1, 2, true]],
+        "30": [["vertical", 1, 2, true]],
+        "31": [["vertical", 1, 2, true]],
+        "32": [["vertical", 1, 2, true]],
+        "33": [["vertical", 1, 2, true]],
+        "34": [["vertical", 1, 2, true]],
+        "35": [["vertical", 1, 2, true]],
+        "36": [["vertical", 1, 2, true]],
+        "37": [["vertical", 1, 2, true]]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "metadata": {
+        "dataset_id": "",
+        "document_type": "handwriting",
+        "example_id": "",
+        "languages": ["Finnish", "Swedish"],
+        "main_language": "Swedish",
+        "main_script": "Latin",
+        "scripts": ["Latin"]
+    },
+    "xml_metadata": {
+        "Language": ["Finnish", "Swedish"],
+        "WritingDirection": "ltr",
+        "PhysicalDescription": "Handwritten entries on a pre-printed table.",
+        "Description": "Spread from Pielavesi migration churchbook. Immigrations on left page. Emigrations on right page.",
+        "Script": "Latin"
+    },
+    "filename_format": {
+        "sep": "_",
+        "fields": {
+            "parish": 0,
+            "churchbook": 1,
+            "years": 2,
+            "source": 3,
+            "pagenr": 4
+        }
+    },
+    "join_tables": {
+        "1": [["vertical", 1, 2, true], ["vertical", 4, 5, true]],
+        "3": [["vertical", 0, 1, false], ["vertical", 2, 3, false]],
+        "4": [["vertical", 0, 1, false], ["vertical", 2, 3, false]],
+        "5": [["vertical", 1, 2, true]],
+        "7": [["vertical", 0, 1, false], ["vertical", 2, 3, false]],
+        "8": [["vertical", 1, 2, false]],
+        "9": [["vertical", 1, 2, true]],
+        "13": [["vertical", 1, 2, true]],
+        "20": [["vertical", 1, 2, true], ["vertical", 4, 5, true]]
+    }
+}
