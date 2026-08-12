@@ -5,8 +5,8 @@ from bs4.dammit import EntitySubstitution
 from pathlib import Path
 import re
 import json
+from src.join_tables import join_tables
 from natsort import natsorted
-from src.transkribus_to_churro import transkribus_xml_combine_tables
 
 argparser = argparse.ArgumentParser()
 argparser.add_argument("-i", "--book_dir")
@@ -52,10 +52,8 @@ for page, original_file in enumerate(transkribus_xmls):
     page_table_instructions = table_join_instructions.get(str(page + 1), None)
     if page_table_instructions:
 
-        transkribus = transkribus_xml_combine_tables(
-            transkribus=transkribus,
-            table_join_instructions=page_table_instructions,
-            copy=False,
+        transkribus =  join_tables(
+            transkribus, instructions=page_table_instructions
         )
     fixed_xml = transkribus.prettify(formatter=formatter)
     fixed_xml = re.sub("<\\?xml.*?\\?>", original_xml_tag, fixed_xml)

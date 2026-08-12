@@ -1,97 +1,7 @@
 from pathlib import Path
 from bs4 import BeautifulSoup
 from copy import deepcopy
-
-
-def combine_tables_vertically(
-    table_1, table_2, table_1_is_header=False, copy=True
-):
-    if copy:
-        t1 = deepcopy(table_1)
-        t2 = deepcopy(table_2)
-    else:
-        t1 = table_1
-        t2 = table_2
-
-    t1_cells = t1.find_all("TableCell")
-    t2_cells = t2.find_all("TableCell")
-
-    if table_1_is_header:
-        for tc in t1_cells:
-            tc["role"] = "header"
-
-    max_t1_row = max(int(tc.attrs.get("row", 0)) for tc in t1_cells)
-    for tc in t2_cells:
-        tc["row"] = str(int(tc["row"]) + max_t1_row + 1)
-
-    t1.append(t2)
-
-    return t1
-
-
-def combine_tables_horizontally(
-    table_1, table_2, soup, n_empty_cols_in_middle=0, copy=True
-):
-    if copy:
-        t1 = deepcopy(table_1)
-        t2 = deepcopy(table_2)
-    else:
-        t1 = table_1
-        t2 = table_2
-
-    new_rows = []
-
-    for tc in t1.find_all("TableCell"):
-        row = int(tc.attrs["row"])
-        while row >= len(new_rows):
-            new_rows.append([])
-
-        new_rows[row].append(tc)
-
-    for _ in range(n_empty_cols_in_middle):
-        for i, row in enumerate(new_rows):
-            last_col = int(new_rows[i][-1].attrs["col"])
-            new_cell = soup.new_tag(
-                "TableCell",
-                attrs={
-                    "col": str(last_col + 1),
-                    "colSpan": "1",
-                    "rowSpan": "1",
-                    "row": str(i),
-                },
-            )
-            row.append(new_cell)
-
-    for tc in t2.find_all("TableCell"):
-        row = int(tc.attrs["row"])
-
-        while row >= len(new_rows):
-            new_rows.append([])
-
-        if new_rows[row]:
-            last_col = max(int(cell["col"]) for cell in new_rows[row])
-        else:
-            last_col = -1
-
-        t2_row = [
-            cell
-            for cell in t2.find_all("TableCell")
-            if int(cell["row"]) == row
-        ]
-        min_col = min(int(cell["col"]) for cell in t2_row)
-
-        offset = last_col + 1 - min_col
-
-        tc["col"] = str(int(tc["col"]) + offset)
-        new_rows[row].append(tc)
-
-    new_table = soup.new_tag("TableRegion")
-    for row in new_rows:
-        row = sorted(row, key=lambda cell: int(cell["col"]))
-        for cell in row:
-            new_table.append(cell)
-
-    return new_table
+from src.join_tables import join_tables
 
 
 def transkribus_to_churro(transkribus: BeautifulSoup, metadata, copy=True):
@@ -102,104 +12,92 @@ def transkribus_to_churro(transkribus: BeautifulSoup, metadata, copy=True):
 
     metadata_tag = soup.new_tag("Metadata")
     for tag_name, tag_string in metadata.items():
-        if type(tag_string) == list:
+        if isinstance(tag_string, list):
             for item in tag_string:
-                tag = soup.new_tag(tag_name, string=item)
+                tag = soup.new_tag(tag_name, string=str(item))
+                metadata_tag.append(tag)
         else:
-            tag = soup.new_tag(tag_name, string=tag_string)
-        metadata_tag.append(tag)
+            tag = soup.new_tag(tag_name, string=str(tag_string))
+            metadata_tag.append(tag)
 
-    soup.find("Metadata").replace_with(metadata_tag)
+    old_metadata = soup.find("Metadata")
+    if old_metadata:
+        old_metadata.replace_with(metadata_tag)
+    else:
+        if soup.contents:
+            soup.contents[0].insert(0, metadata_tag)
 
-    for tag in soup.find_all(
-        ["Page", "PcGts", "TableRegion", "TextLine", "Coords", "CornerPts"]
-    ):
+    table_regions = list(soup.find_all("TableRegion"))
+    for table_region in table_regions:
+        table_region.name = "Table"
+        table_region.attrs.clear()
+
+        rows = {}
+        cells = list(table_region.find_all("TableCell"))
+
+        for cell in cells:
+            cell.extract()
+
+            row_attr = cell.get("row") or cell.get("Row")
+            if row_attr is None:
+                continue
+            row_num = int(row_attr)
+
+            cleaned_attrs = {}
+            for k in [
+                "role",
+                "Role",
+                "rowSpan",
+                "rowspan",
+                "colSpan",
+                "colspan",
+            ]:
+                if k in cell.attrs:
+                    cleaned_attrs[k.lower()] = cell.attrs[k]
+            cell.attrs = cleaned_attrs
+
+            if row_num not in rows:
+                rows[row_num] = []
+            rows[row_num].append(cell)
+
+        for row_num in sorted(rows.keys()):
+            table_row = soup.new_tag("TableRow")
+
+            sorted_cells = sorted(
+                rows[row_num],
+                key=lambda c: int(c.get("col", 0) or c.get("Col", 0)),
+            )
+
+            for cell in sorted_cells:
+                table_row.append(cell)
+
+            table_region.append(table_row)
+
+    all_tags = list(
+        soup.find_all(["Page", "PcGts", "TextLine", "Coords", "CornerPts"])
+    )
+    for tag in all_tags:
+        if tag.parent is None and tag.name != "PcGts":
+            continue
+
         tag_name = tag.name
 
         if tag_name == "Page":
             tag.attrs.clear()
 
-        if tag_name == "PcGts":
+        elif tag_name == "PcGts":
             tag.name = "HistoricalDocument"
-            tag.attrs = {"xlmns": "http://example.com/historicaldocument"}
+            tag.attrs = {"xmlns": "http://example.com"}
 
-        if tag_name == "TextLine":
+        elif tag_name == "TextLine":
             tag.name = "Line"
-            tag.string = tag.text.strip("\n")
+            text_content = tag.get_text().strip("\n")
+            tag.clear()
+            tag.string = text_content
             tag.attrs.clear()
 
-        if tag_name == "Coords" or tag_name == "CornerPts":
+        elif tag_name in ["Coords", "CornerPts"]:
             tag.decompose()
-
-        if tag_name == "TableRegion":
-            tag.name = "Table"
-            tag.attrs.clear()
-
-            rows = {}
-
-            for cell in tag.find_all("TableCell"):
-                cell = cell.extract()
-                row = int(cell["row"])
-
-                cell.attrs = {
-                    k.lower(): cell.attrs[k]
-                    for k in ["role", "rowSpan"]
-                    if k in cell.attrs
-                }
-
-                if not rows.get(row):
-                    rows[row] = []
-
-                rows[row].append(cell)
-
-            for row_num in sorted(rows):
-                table_row = soup.new_tag("TableRow")
-
-                for cell in rows[row_num]:
-                    table_row.append(cell)
-
-                tag.append(table_row)
-
-    return soup
-
-
-def transkribus_xml_combine_tables(
-    transkribus: BeautifulSoup, table_join_instructions, copy=True
-):
-    if copy:
-        soup = deepcopy(transkribus)
-    else:
-        soup = transkribus
-
-    tables = list(soup.find_all("TableRegion"))
-
-    for join in table_join_instructions:
-        direction = join[0]
-        table_1_idx = join[1]
-        table_2_idx = join[2]
-        extra_instruction = join[3]
-
-        table_1 = tables[table_1_idx]
-        table_2 = tables[table_2_idx]
-
-        if direction == "vertical":
-            combined = combine_tables_vertically(
-                table_1,
-                table_2,
-                table_1_is_header=extra_instruction,
-                copy=True,
-            )
-        elif direction == "horizontal":
-            combined = combine_tables_horizontally(
-                table_1,
-                table_2,
-                soup,
-                n_empty_cols_in_middle=extra_instruction,
-                copy=True,
-            )
-
-        table_1.replace_with(combined)
-        table_2.decompose()
 
     return soup
 
@@ -226,7 +124,6 @@ def transkribus_xmls_to_churro_xmls(
             transkribus_xml,
             features="xml",
             preserve_whitespace_tags=[
-                # Metadata
                 "Language",
                 "WritingDirection",
                 "PhysicalDescription",
@@ -235,15 +132,15 @@ def transkribus_xmls_to_churro_xmls(
                 "Creator",
                 "Created",
                 "LastChange",
-                # Other
                 "Line",
                 "Unicode",
                 "CornerPts",
             ],
         )
-        soup = transkribus_xml_combine_tables(
-            soup, table_join_instructions.get(str(page), []), False
-        )
+
+        page_table_instructions = table_join_instructions.get(str(page))
+        if page_table_instructions:
+            soup = join_tables(soup, instructions=page_table_instructions)
 
         soup = transkribus_to_churro(
             soup,
