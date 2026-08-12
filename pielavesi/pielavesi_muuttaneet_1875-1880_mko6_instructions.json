@@ -26,14 +26,14 @@
         }
     },
     "join_tables": {
-        "1": [["vertical", 1, 2, true], ["vertical", 4, 5, true]],
-        "3": [["vertical", 0, 1, false], ["vertical", 2, 3, false]],
-        "4": [["vertical", 0, 1, false], ["vertical", 2, 3, false]],
+        "1": [["vertical", 1, 2, true], ["vertical", 3, 4, true]],
+        "3": [["vertical", 0, 1, false], ["vertical", 1, 2, false]],
+        "4": [["vertical", 0, 1, false], ["vertical", 1, 2, false]],
         "5": [["vertical", 1, 2, true]],
-        "7": [["vertical", 0, 1, false], ["vertical", 2, 3, false]],
+        "7": [["vertical", 0, 1, false], ["vertical", 1, 2, false]],
         "8": [["vertical", 1, 2, false]],
         "9": [["vertical", 1, 2, true]],
         "13": [["vertical", 1, 2, true]],
-        "20": [["vertical", 1, 2, true], ["vertical", 4, 5, true]]
+        "20": [["vertical", 1, 2, true], ["vertical", 3, 4, true]]
     }
 }
